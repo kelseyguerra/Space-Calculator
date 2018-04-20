@@ -1,13 +1,7 @@
-import { space-class } from "./../src/space-class.js";
+import { calculateSeconds } from "./../src/space-class.js";
 
-describe('Class', function() {
-  let reusableObject;
-
-  beforeEach(function() {
-    reusableObject = new Class(parameter);
+  describe('calculateSeconds', function() {
+  it('Should convert years to seconds', function() {
+    expect(calculateSeconds(26)).toEqual(820040000);
+    })
   });
-
-  it('describe test', function() {
-    expect(reusableObject.prop).toEqual(value);
-  });
-});
