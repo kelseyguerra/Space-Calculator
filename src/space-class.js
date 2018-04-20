@@ -17,7 +17,6 @@ export class ageInput {
     let mercuryAge = this.age * .24;
     return Math.round(mercuryAge);
   }
-}
   convertVenusAge(age) {
     let venusAge = this.age * .62;
     return Math.round(venusAge);
@@ -30,3 +29,4 @@ export class ageInput {
     let jupiterAge = this.age * 11.86;
     return Math.round(jupiterAge);
   }
+}

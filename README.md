@@ -21,12 +21,12 @@ These variables include:
 
 Behavior | Input | Ouput
 ------------ | ------------- | -------------
-Calculator Will Convert User's Years To Seconds | 1 | | 3.154e+7 |
-Calculator Will Convert Two Different Dates From Years To Seconds |4/9/1992, 4/20/2018| |3.154e+7|
-Calculator Will Convert User's Age in Earth Years To Mercury Years |26| |(.24)|
-Calculator Will Convert User's Age in Earth Years To Venus Years |26| |(.62)|
-Calculator Will Convert User's Age in Earth Years To Mars Years |26| |(1.88)|
-Calculator Will Convert User's Age in Earth Years To Jupiter Years |26| |(11.86)|
+Calculator Will Convert User's Years To Seconds | 1 | | | 3.154e+7 |
+Calculator Will Convert Two Different Dates From Years To Seconds |4/9/1992, 4/20/2018| | |3.154e+7|
+Calculator Will Convert User's Age in Earth Years To Mercury Years |26| | |(.24)|
+Calculator Will Convert User's Age in Earth Years To Venus Years |26| | |(.62)|
+Calculator Will Convert User's Age in Earth Years To Mars Years |26| | |(1.88)|
+Calculator Will Convert User's Age in Earth Years To Jupiter Years |26| | |(11.86)|
 Calculator Will Return User's Life Expectancy On Each Planet | Mercury, Venus, Mars, Jupiter| |Average Life Expectancy |
 Calculator Will Return The Number Of Years Live Passed If Already Surpassing Average Life Expectancy | Planets: | | Number of Years |
 
