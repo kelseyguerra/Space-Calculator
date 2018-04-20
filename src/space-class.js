@@ -1,14 +1,17 @@
+export { ageInput }
+
 class ageInput {
   constructor() {
-    this.birthDate = birthDate;
-    this.presentDate = presentDate;
-    this.mercuryAge = convertMercuryAge();
-    this.venusAge = convertVenusAge();
-    this.marsAge = convertMarsAge();
-    this.jupiterAge = convertJupiterAge();
+    this.birthDate;
+    // this.presentDate = presentDate;
+    // this.mercuryAge = convertMercuryAge();
+    // this.venusAge = convertVenusAge();
+    // this.marsAge = convertMarsAge();
+    // this.jupiterAge = convertJupiterAge();
+    // this.ageInSeconds = calculateSeconds();
 }
 calculateSeconds() {
-  return this.birthDate * 3.154e+7;
+  return this.birthdate * 3.154e+7;
 }
 convertMercuryAge() {
   return this.birthDate*.24;
@@ -23,5 +26,3 @@ convertJupiterAge() {
   return this.birthDate*11.86;
 }
 }
-
-export { ageInput }
