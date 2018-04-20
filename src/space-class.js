@@ -1,10 +1,10 @@
-export function calculateSeconds(inputAge) {
-return inputAge * 3.154e+7;
-}
 
 class ageInput {
     constructor (birthDate) {
-    this.birthDate = new Date (birthDate);
+    this.birthDate = birthDate;
+  }
+  calculateSeconds() {
+    return this.birthDate * 3.154e+7;
   }
   convertMercuryAge() {
     return this.birthDate*.24;
