@@ -1,7 +1,7 @@
 import { calculateSeconds } from "./../src/space-class.js";
-import { ageCalculator } from "./../src/space-class.js";
+import { ageInput } from "./../src/space-class.js";
 
-  describe('ageCalculator', function() {
+  describe('ageInput', function() {
   }
 
     it('Should convert years to seconds', function() {
@@ -10,6 +10,7 @@ import { ageCalculator } from "./../src/space-class.js";
   });
 
   it('should convert input age from Earth years to Mercury  years', function() {
-    expect(convertMercuryAge(26)).toEqual(6.24);
+    let inputAge = new inputAge(26)
+    expect(inputAge.convertMercuryAge()).toEqual(6.24);
   });
 });

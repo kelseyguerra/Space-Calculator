@@ -1,21 +1,24 @@
-export { ageCalculator };
 export function calculateSeconds(inputAge) {
 return inputAge * 3.154e+7;
 }
 
-class ageCalculator {
-
-    constructor (birthDate, presentDate) {
+class ageInput {
+    constructor (birthDate) {
     this.birthDate = new Date (birthDate);
-    this.presentDate = new Date (presentDate);
-    this.mercuryAge = this.convertMercuryAge();
-    this.venusAge = this.convertVenusAge();
-    this.marsAge = this.convertMarsAge();
-    this.jupiterAge = this.convertJupiterAge();
-    this.difference = this.convertedAge();
-    }
-
-  convertMercuryAge(inputAge) {
-    return inputAge*.241;
+  }
+  convertMercuryAge() {
+    return this.birthDate*.24;
+  }
+  convertVenusAge() {
+    return this.birthDate*.62;
+  }
+  convertMarsAge() {
+    return this.birthDate*1.88;
+  }
+  convertJupiterAge() {
+    return this.birthDate*11.86;
   }
 }
+
+
+export { ageInput };
