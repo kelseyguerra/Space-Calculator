@@ -10,7 +10,7 @@ export class ageInput {
     // this.jupiterAge = convertJupiterAge();
     // this.ageInSeconds = calculateSeconds();
   calculateSeconds(age) {
-    let ageInSeconds = age * 3.154e+7;
+    let ageInSeconds = this.age * 3.154e+7;
     return ageInSeconds;
   }
   convertMercuryAge(age) {
@@ -19,14 +19,14 @@ export class ageInput {
   }
 }
   convertVenusAge(age) {
-    let venusAge = birthDate * .62;
+    let venusAge = this.age * .62;
     return Math.round(venusAge);
   }
   convertMarsAge(age) {
-    let marsAge = birthDate * 1.88;
+    let marsAge = this.age * 1.88;
     return Math.round(marsAge);
   }
   convertJupiterAge(age) {
-    let jupiterAge = birthDate* 11.86;
+    let jupiterAge = this.age * 11.86;
     return Math.round(jupiterAge);
   }
