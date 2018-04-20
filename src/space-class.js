@@ -1,10 +1,11 @@
 
 class ageInput {
-    constructor (birthDate) {
-    this.birthDate = birthDate;
+
+  constructor (birthDate) {
+  this.birthDate = birthDate;
   }
-  calculateSeconds() {
-    return this.birthDate * 3.154e+7;
+  calculateSeconds(input) {
+    return input * 3.154e+7;
   }
   convertMercuryAge() {
     return this.birthDate*.24;
