@@ -1,16 +1,22 @@
 import { ageInput } from "./../src/space-class.js";
 
-  describe('ageCalculator', function() {
-
+describe('ageInput', function() {
   it('will convert users input from years to seconds', function() {
-    let ageInput = new Age(26);
-    expect(ageInput.calculateSeconds()).toEqual(820040000);
-
+    let age = new Age(26);
+    expect(age.calculateSeconds(26)).toEqual(820040000);
   });
+});
 
+describe('ageInput', function() {
   it('will convert users input from Earth years to Mercury years', function() {
-    let ageInput = (26);
-    ageInput.convertMercuryAge();
-    expect(ageInput.birthDate()).toEqual(820040000);
-    })
-  })
+    let age = new Age(26);
+    expect(age.mercuryAge(26)).toEqual(820040000);
+  });
+});
+
+describe('ageInput', function() {
+  it('will convert users input from Earth years to Mercury years', function() {
+    let age = new Age(26);
+    expect(age.venusAge(26)).toEqual(42.3);
+  });
+});
