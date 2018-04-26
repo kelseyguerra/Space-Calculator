@@ -1,10 +1,3 @@
-// import { function } from './class';
-// import 'bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './styles.css';
+// import { ageInput } from './space-class';
 // import $ from 'jquery';
-// import $ from
-//
-// $(document).ready(function() {
-//
-// });
+// import './styles.css';
